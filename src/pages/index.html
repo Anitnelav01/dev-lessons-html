@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700;900&family=Open+Sans&family=Roboto:wght@400;700&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <header class="header">
+        <div class="header-container">
+          <div class="header__logo">
+            <img src="./images/Untitled (1).png" alt="logo" class="img-logo">
+          </div>
+          <div class="header__block-menu">
+            <ul class="header-menu">
+              <a href="#">Блог</a>
+              <a href="#">Все уроки</a>
+              <a href="#">Портфолио</a>
+              <a href="#">Обратная связь</a>
+            </ul>
+          </div>
+          <form action="">
+            <div class="search-string">
+              <input type="text">
+              <button class="search-string__button">
+                <div class="icon-button">
+                  <img src="./icons/Vector.png" alt="icon-button">
+                </div>
+              </button>
+            </div>
+          </form>
+        </div>
+      </header>
+      <div class="container-content">
+        <section class="sidebar">
+          <button class="sidebar__button">
+            <a href="#">Добавить страницу</a>
+          </button>
+          <div class="sidebar-container">
+            <h4 class="sidebar__title">Содержание раздела «КЛАССЫ»</h4>
+            <div class="sidebar__widget">
+            </div>
+            <div class="widget">
+              <div class="widget__title">A</div>
+              <div class="widget__links">
+                <a href="#" class="widget__item">Автоматическая загрузка классов</a>
+                <a href="#" class="widget__item">Абстрактные классы</a>
+                <a href="#" class="widget__item">Анонимные классы</a>
+              </div>
+            </div>
+            <div class="widget">
+              <div class="widget__title">М</div>
+              <div class="widget__links">
+                <a href="#" class="widget__item">Магические методы</a>
+                <a href="#" class="widget__item">Модификаторы доступа</a>
+              </div>
+            </div>
+            <div class="widget">
+              <div class="widget__title">Н</div>
+              <div class="widget__links">
+                <a href="#" class="widget__item">Наследование</a>
+              </div>
+            </div>
+            <div class="widget">
+              <div class="widget__title">С</div>
+              <div class="widget__links">
+                <a href="#" class="widget__item">Свойства</a>
+                <a href="#" class="widget__item">Сериализация объектов</a>
+              </div>
+            </div>
+            <div class="widget">
+              <div class="widget__title">Т</div>
+              <div class="widget__links">
+                <a href="#" class="widget__item">Трейты</a>
+              </div>
+            </div>
+            <div class="widget">
+              <div class="widget__title">A</div>
+              <div class="widget__links">
+                <a href="#" class="widget__item">Автоматическая загрузка классов</a>
+                <a href="#" class="widget__item">Абстрактные классы</a>
+                <a href="#" class="widget__item">Анонимные классы</a>
+              </div>
+            </div>
+            <div class="widget">
+              <div class="widget__title">М</div>
+              <div class="widget__links">
+                <a href="#" class="widget__item">Магические методы</a>
+                <a href="#" class="widget__item">Модификаторы доступа</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="content">
+          <div class="content__breadcrumbs">
+            <ul class="breadcrumbs-items">
+              <a href="#">Разработка</a>
+              <a href="#">Php</a>
+              <a href="#">Классы</a>
+            </ul>
+          </div>
+          <div class="content__section-blocks">
+            <div class="block-text">
+              <h1 class="text-title">Заголовок 1</h1>
+              <h2 class="text-title">Заголовок 2</h2>
+              <h3 class="text-title">Заголовок 3</h3>
+              <h4 class="text-title">Заголовок 4</h4>
+              <div class="block-text-content">
+                <p>Аналогом структур из Си в PHP являются классы (как вы увидите позже, классы устроены намного сложнее). По крайней мере, в первом приближении.</p>
+                <p>Определение класса подозрительно похоже на определение структуры.
+                   За ключевым словом class следует имя класса, затем в фигурных скобках перечисляются элементы класса. Если в структурах их элементы назывались членами, то в PHP их принято называть свойствами. </p>
+                <p>Такое именование характерно для большинства классовых языков. В PHP классы должны начинаться с заглавной буквы.</p>
+                <p>Одно из отличий классов от структур связано с наличием встроенного механизма защиты данных. Ключевое слово public делает свойства публичными, то есть доступными снаружи для чтения и модификации.</p> 
+              </div>
+            </div>
+            <div class="block-image">
+              <h3 class="image-title">Заголовок блока изображения</h3>
+              <img src="./images/Rectangle 2.png" alt="" class="block-image__img">
+              <div class="desc">Подпись изображения</div>
+            </div>
+            <div class="block-code">
+              <h3 class="code-title">Заголовок блока с вставкой кода</h3>
+              <div class="code-content"><p>'<'?php </p>
+
+                <p>namespace Vendor\Package;</p>
+                <p>use FooClass;</p>
+                <p>use BarClass as Bar;</p>
+                <p>use OtherVendor\OtherPackage\BazClass; </p>
+                <br>
+                <p>// ... additional PHP code ...</p></div>
+              <div class="desc">Подпись</div>
+            </div>
+            <div class="block-aside">
+              <h3 class="aside-title">Дополнительные материалы</h3>
+              <div class="aside-links">
+                <a href="#" class="aside-link"><img src="./icons/icon _link alt_.png" alt="link">Ссылка 1</a>
+                <a href="#" class="aside-link"><img src="./icons/icon _link alt_.png" alt="link">Очень длинное название ссылки 2</a>
+                <a href="#" class="aside-link"><img src="./icons/icon _link alt_.png" alt="link">Название конспекта 3</a>
+              </div>
+            </div>
+            <div class="block-socials">
+              <a href="#"><img src="./icons/940962_git_github_hub icon_icon 2.png" class="button-socials" alt="socials">Ссылка на GitHub</a>
+              <a href="#"><img src="./icons/940962_git_github_hub icon_icon 2.png" class="button-socials" alt="socials">Ссылка на GitHub</a>
+              <a href="#"><img src="./icons/940962_git_github_hub icon_icon 2.png" class="button-socials" alt="socials">Ссылка на GitHub</a>
+            </div>
+            <div class="info-block">
+              <h3 class="aside-title">Название какой-то фичи (доступно с версии 7.4)</h3>
+              <div class="info-block__text">
+                <p></p>Аналогом структур из Си в PHP являются классы (как вы увидите позже, классы устроены намного сложнее). По крайней мере, в первом приближении.</p>
+                <p>Определение класса подозрительно похоже на определение структуры. За ключевым словом class следует имя класса, затем в фигурных скобках перечисляются элементы класса. Если в структурах их элементы назывались членами, то в PHP их принято называть свойствами. </p>
+                <p>Такое именование характерно для большинства классовых языков. В PHP классы должны начинаться с заглавной буквы.</p>
+                <p>Одно из отличий классов от структур связано с наличием встроенного механизма защиты данных. Ключевое слово public делает свойства публичными, то есть доступными снаружи для чтения и модификации. </p>
+              </div>
+            </div>
+            <div class="views">
+              <img src="./icons/icon _eye_.png" alt="icon-views">
+              <div class="number-views">1 000 000</div>
+              просмотров
+            </div>
+          </div>
+          
+        </section>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container container-footer">
+        <div class="footer__my-social">
+          <ul class="my-social-link">
+            <a href="">Я на Хабре</a>
+            <a href="">Я в LinkedIn</a>
+            <a href="">Мой GitHub</a>
+          </ul>
+        </div>
+        <div class="footer__aside">
+          <div class="aside-text">Всего  уроков на сайте: </div>
+          <div class="counter">1879</div>
+        </div>
+        <div class="footer__logo">
+          <img src="./images/Untitled (1).png" alt="logo" class="img-logo">
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

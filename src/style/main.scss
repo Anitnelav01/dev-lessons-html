@@ -1,0 +1,21 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css";
+
+$max-width:1920px;
+$color:#2A3139;
+$button-color:#8B76D3;
+$button-active:#7250e6;
+$grey-color:#949494;
+$black-color:#2A3139;
+$light-gray:#F2F2F2;
+$white:#FFF;
+
+@import './includes/media.scss';
+@import "./includes/general.scss";
+@import "./includes/fonts.scss";
+
+
+body {
+  @import "./pages/index/header.scss";
+  @import "./pages/index/footer.scss";
+  @import "./pages/index/content.scss";
+}
